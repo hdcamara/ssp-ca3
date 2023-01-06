@@ -2,72 +2,81 @@
 <menu>
   <category name="Coupé">
     <item>
-      <listing>Espresso</listing>
-      <price>3.10</price>
+      <listing>BMW 218</listing>
+      <price>14.750</price>
+      <year>2014</year>
     </item>
     <item>
-      <listing>Latte</listing>
-      <price>3.50</price>
+      <listing>Mercedes Benz 250CDI</listing>
+      <price>18.900</price>
+      <year>2014</year>
     </item>
-    <item decaf="true">
-      <listing>Americano</listing>
-      <price>3.20</price>
+    <item automatic="true">
+      <listing>Mercedes Benz 250CDI</listing>
+      <price>18.900</price>
     </item>
   </category>
   <category name="Hatchback">
     <item>
-      <listing>Salted Caramel Frappé</listing>
-      <price>4.50</price>
+      <listing>VW Golf MK7</listing>
+      <price>17.900</price>
+      <year>2015</year>
     </item>
     <item>
-      <listing>Pumpkin Spice Frappé</listing>
-      <price>5.00</price>
+      <listing>Audi A3 Sportback</listing>
+      <price>15.950</price>
+      <year>2014</year>
     </item>
-    <item decaf="true">
-      <listing>Mint Chocolate Frappé</listing>
-      <price>5.00</price>
+    <item Automatic="true">
+      <listing>Audi A3 Sportback</listing>
+      <price>15.950</price>
+      <year>2014</year>
     </item>
   </category>
   <category name="Sedan">
     <item>
-      <listing>Iced Toasted Vanilla</listing>
-      <price>4.00</price>
+      <listing>Audi A4 S line</listing>
+      <price>17.995</price>
+      <year>2014</year>
     </item>
     <item>
-      <listing>Iced Shaken Espresso</listing>
-      <price>3.80</price>
+      <listing>Skoda Octavia VRS</listing>
+      <price>19.995</price>
+      <year></year>
     </item>
-    <item decaf="true">
-      <listing>Iced Flat White</listing>
-      <price>4.10</price>
+    <item Automatic="true">
+      <listing>Audi A4 S line</listing>
+      <price>17.995</price>
+      <year>2014</year>
     </item>
   </category>
   <category name="Station Wagon">
     <item>
-      <listing>Mint</listing>
-      <price>2.50</price>
+      <listing>Seat Leon FR</listing>
+      <price>11.450</price>
+      <year>2014</year>
     </item>
     <item>
-      <listing>Green</listing>
-      <price>2.70</price>
+      <listing>Mercedes Benz C200 Bluetech</listing>
+      <price>17.950</price>
+      <year>2015</year>
     </item>
-    <item decaf="true">
-      <listing>Breakfast</listing>
-      <price>2.50</price>
+    <item Automatic="true">
+      <listing>Mercedes Benz C200 Bluetech</listing>
+      <price>17.950</price>
+      <year>2015</year>
     </item>
   </category>
   <category name="Suv">
     <item>
-      <listing>Chocolate Brownie</listing>
-      <price>4.50</price>
+      <listing>Hyundai IX35</listing>
+      <price>15.250</price>
+      <year>2015</year>
     </item>
     <item>
-      <listing>Vanila Cheescake</listing>
-      <price>4.50</price>
+      <listing>Audi Q5</listing>
+      <price>18.750</price>
+      <year>2014</year>
     </item>
-    <item>
-      <listing>Carrot Cake</listing>
-      <price>5.00</price>
-    </item>
-  </category>
+      </category>
 </menu>
