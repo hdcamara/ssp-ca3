@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <menu>
-  <category name="Coffee">
+  <category name="Coupé">
     <item>
       <listing>Espresso</listing>
       <price>3.10</price>
@@ -14,7 +14,7 @@
       <price>3.20</price>
     </item>
   </category>
-  <category name="Frappe">
+  <category name="Hatchback">
     <item>
       <listing>Salted Caramel Frappé</listing>
       <price>4.50</price>
@@ -28,7 +28,7 @@
       <price>5.00</price>
     </item>
   </category>
-  <category name="Iced Coffee">
+  <category name="Sedan">
     <item>
       <listing>Iced Toasted Vanilla</listing>
       <price>4.00</price>
@@ -42,7 +42,7 @@
       <price>4.10</price>
     </item>
   </category>
-  <category name="Tea">
+  <category name="Station Wagon">
     <item>
       <listing>Mint</listing>
       <price>2.50</price>
@@ -56,7 +56,7 @@
       <price>2.50</price>
     </item>
   </category>
-  <category name="Deserts">
+  <category name="Suv">
     <item>
       <listing>Chocolate Brownie</listing>
       <price>4.50</price>
