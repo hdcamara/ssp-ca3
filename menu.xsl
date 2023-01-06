@@ -19,8 +19,8 @@
 					</tr>
 					<xsl:for-each select="item">
 						<tr id="{position()}">
-							<xsl:attribute name="decaf">
-								<xsl:value-of select="boolean(@decaf)" />
+							<xsl:attribute name="Automatic">
+								<xsl:value-of select="boolean(@Automatic)" />
 							</xsl:attribute>
 							<td align="center">
 								<input name="item0" type="checkbox" />
@@ -32,6 +32,14 @@
 								<xsl:value-of select="price" />
 							</td>
 						</tr>
+						<xsl:for-each select="Image">
+									<Image class="rounded-3" height="200"> 
+									<xsl:attribute name="src">
+										<xsl:value-of select="."/>
+									</xsl:attribute>
+									
+									</Image>
+</xsl:for-each>
 					</xsl:for-each>
 				</xsl:for-each>
 			</tbody>
