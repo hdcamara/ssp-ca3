@@ -13,7 +13,7 @@
 			<tbody>
 				<xsl:for-each select="//category">
 					<tr>
-						<td colspan="3">
+						<td colspan="4">
 							<xsl:value-of select="@name" />
 						</td>
 					</tr>
@@ -26,20 +26,20 @@
 								<input name="item0" type="checkbox" />
 							</td>
 							<td>
-								<xsl:value-of select="listing" />
-							</td>
-							<td align="right">
-								<xsl:value-of select="price" />
-							</td>
-						</tr>
-						<xsl:for-each select="Image">
+							<xsl:for-each select="Image">
 									<Image class="rounded-3" height="200"> 
 									<xsl:attribute name="src">
 										<xsl:value-of select="."/>
 									</xsl:attribute>
 									
 									</Image>
-</xsl:for-each>
+								<xsl:value-of select="listing" />
+							</td>
+							<td align="right">
+								<xsl:value-of select="price" />
+							</td>
+						</tr>
+						</xsl:for-each>
 					</xsl:for-each>
 				</xsl:for-each>
 			</tbody>
